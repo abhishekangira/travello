@@ -2,7 +2,7 @@
   "name": "travello",
   "version": "1.0.0",
   "description": "vanilla",
-  "main": "index.js",
+  "main": "public/js/index.js",
   "dependencies": {},
   "devDependencies": {
     "node-sass": "^5.0.0"
