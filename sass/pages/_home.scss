@@ -1,0 +1,33 @@
+.section-about {
+    background: $c-grey-light-1;
+    padding: 17rem 0 22rem 0;
+    margin-top: -20vh;
+    text-align: center;
+
+    &__box {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: left;
+    }
+
+    &__text {
+        width: 40rem;
+    }
+}
+
+.section-features {
+    background: linear-gradient(
+            to bottom right,
+            rgba($c-primary, 0.8),
+            rgba($c-primary-dark, 0.8)
+        ),
+        url(../assets/images/nat-4.jpg);
+    height: 80rem;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    margin-top: -16rem;
+}

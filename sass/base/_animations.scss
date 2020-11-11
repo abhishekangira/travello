@@ -1,0 +1,52 @@
+.a-fadeInLeft {
+    animation: fadeInLeft 1s ease-out 0.5s backwards;
+}
+
+.a-fadeInExpandInfinite {
+    animation: fadeIn 1s ease-out 1.5s backwards,
+        expandInfinite 25s ease-out 4s infinite;
+}
+
+.a-fadeInBottom {
+    animation: fadeInBottom 1s ease-out 2.5s backwards;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        transform: translateX(-2rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes expandInfinite {
+    50% {
+        letter-spacing: 1rem;
+    }
+    100% {
+        letter-spacing: 0.6rem;
+    }
+}
+
+@keyframes fadeInBottom {
+    0% {
+        transform: translateY(3rem);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

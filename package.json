@@ -1,0 +1,15 @@
+{
+  "name": "travello",
+  "version": "1.0.0",
+  "description": "vanilla",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "scripts": {
+    "sass": "node-sass -w sass -o public/css"
+  },
+  "author": "",
+  "license": "ISC"
+}

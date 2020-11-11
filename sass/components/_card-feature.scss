@@ -1,0 +1,26 @@
+.card-feature {
+    background: rgba($c-white, 0.7);
+    height: 32rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 0.3rem;
+    transition: all 0.3s;
+    cursor: default;
+    box-shadow: 0 0.5rem 1rem rgba($c-black, 0.2);
+
+    &:hover {
+        transform: scale(1.03) translateY(-1.2rem);
+        box-shadow: 0 0.5rem 2rem rgba($c-black, 0.2);
+    }
+
+    ion-icon {
+        font-size: 8rem;
+        --ionicon-stroke-width: 1.8rem;
+        color: $c-primary-dark;
+    }
+}
