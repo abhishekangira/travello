@@ -8,7 +8,8 @@
     "node-sass": "^5.0.0"
   },
   "scripts": {
-    "sass": "node-sass -w sass -o public/css"
+    "sass": "node-sass -w sass -o public/css",
+    "build": "node-sass sass -o public/css"
   },
   "author": "",
   "license": "ISC"
