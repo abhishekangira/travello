@@ -9,7 +9,7 @@
   },
   "scripts": {
     "sass": "node-sass -w sass -o public/css",
-    "build": "node-sass sass -o public/css"
+    "build": "npm i && node-sass sass -o public/css"
   },
   "author": "",
   "license": "ISC"
